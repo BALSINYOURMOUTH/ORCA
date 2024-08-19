@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (navToggle) {
         navToggle.addEventListener('click', function() {
             mainNav.classList.toggle('open');
+            navToggle.classList.toggle('open'); // Rotate the icon
         });
     }
 
@@ -29,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
+
     // do not forget to add the remaining code in this you fucking idiot
+
 
 });
