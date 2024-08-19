@@ -1,0 +1,57 @@
+orca-website/
+│
+├── index.html
+├── shop.html
+├── about.html
+├── contact.html
+├── blog.html
+├── faq.html
+│
+├── assets/
+│   ├── css/
+│   │   ├── main.css
+│   │   ├── responsive.css
+│   │   └── shop.css
+│   │
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── shop.js
+│   │   └── contact.js
+│   │
+│   ├── img/
+│   │   ├── logo.png
+│   │   ├── product1.jpg
+│   │   ├── banner.jpg
+│   │   └── icons/
+│   │       ├── fb-icon.png
+│   │       ├── ig-icon.png
+│   │       └── tw-icon.png
+│   │
+│   ├── fonts/
+│   │   ├── open-sans.ttf
+│   │   └── roboto.ttf
+│   │
+│   └── vendor/
+│       ├── jquery.min.js
+│       └── bootstrap.min.css
+│
+├── server/
+│   ├── server.js
+│   ├── routes/
+│   │   ├── shop.js
+│   │   └── contact.js
+│   │
+│   ├── controllers/
+│   │   ├── shopController.js
+│   │   └── contactController.js
+│   │
+│   ├── models/
+│   │   └── productModel.js
+│   │
+│   └── views/
+│       ├── shop.ejs
+│       └── contact.ejs
+│
+├── .env
+├── package.json
+└── README.md
