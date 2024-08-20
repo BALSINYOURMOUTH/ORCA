@@ -1,4 +1,8 @@
 // Wait for the DOM to be fully loaded before running scripts
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.add('loaded');
+});
+
 document.addEventListener("DOMContentLoaded", function() {
 
     // Basic Mobile Menu Toggle
@@ -30,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-
+    
     // do not forget to add the remaining code in this you fucking idiot
 
 

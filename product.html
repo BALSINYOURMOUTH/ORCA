@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Orca Clothing</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/product.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt="Orca Logo"></a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle">
+                <span class="nav-toggle-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-image">
+                <img id="product-img" src="assets/img/product1.jpg" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <h1 id="product-title">Product Title</h1>
+                <p class="price" id="product-price">$0.00</p>
+                <p class="description" id="product-description">Product description goes here.</p>
+                <button class="btn-primary" id="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products">
+        <div class="container">
+            <h2>Related Products</h2>
+            <div class="product-grid" id="related-products">
+                <!-- Dynamically load related products -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Orca Clothing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/product.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/shop.js"></script>
+</body>
+</html>
